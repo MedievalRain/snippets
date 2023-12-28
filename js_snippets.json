@@ -1,0 +1,27 @@
+{
+  "arrowFunction": {
+    "prefix": "af",
+    "body": "() => $0",
+    "description": "Arrow function (implicit return)"
+  },
+  "constantArrowFunction": {
+    "prefix": "caf",
+    "body": ["const ${1:name} = ($2) => $0"],
+    "description": "Constant Arrow function (implicit return)"
+  },
+  "constant.ArrowFunction": {
+    "prefix": "caf",
+    "body": ["const ${1:name} = ($2) => $0"],
+    "description": "Constant Arrow function (implicit return)"
+  },
+  "Print to console": {
+    "prefix": "cl",
+    "body": ["console.log($1)"],
+    "description": "console.log"
+  },
+  "importSCSSModule": {
+    "prefix": "scsm",
+    "body": ["import styles from './${TM_FILENAME_BASE}.module.scss'"],
+    "description": "Import CSS Module as `styles`"
+  }
+}
